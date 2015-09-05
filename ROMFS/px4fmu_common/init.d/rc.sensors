@@ -110,6 +110,11 @@ if px4flow start
 then
 fi
 
+# Check for irlock sensor
+if irlock start
+then
+fi
+
 if ll40ls start
 then
 fi
